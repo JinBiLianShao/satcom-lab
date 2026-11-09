@@ -1,0 +1,150 @@
+{
+  "capturedAt": "2026-11-09T07:20:47.327Z",
+  "fileUrl": "file:///home/lsx/work/satcom-lab/index.html",
+  "shots": {
+    "scene3d": {
+      "path": "/home/lsx/work/satcom-lab/reports/screenshots/upgraded-scene3d.png",
+      "bytes": 129788
+    },
+    "system": {
+      "path": "/home/lsx/work/satcom-lab/reports/screenshots/upgraded-system.png",
+      "bytes": 125546
+    }
+  },
+  "pix3d": {
+    "whole": {
+      "darkPct": 62.6,
+      "midPct": 33.3,
+      "brightPct": 4.1,
+      "colorBuckets": 102,
+      "medianLum": 22.7,
+      "p90Lum": 58
+    },
+    "center": {
+      "darkPct": 2.6,
+      "midPct": 85.6,
+      "brightPct": 11.8,
+      "colorBuckets": 81,
+      "medianLum": 48.7,
+      "p90Lum": 93.7
+    }
+  },
+  "pixSys": {
+    "whole": {
+      "darkPct": 48.4,
+      "midPct": 48.1,
+      "brightPct": 3.4,
+      "colorBuckets": 89,
+      "medianLum": 27.3,
+      "p90Lum": 53
+    },
+    "center": {
+      "darkPct": 17.1,
+      "midPct": 80,
+      "brightPct": 3,
+      "colorBuckets": 48,
+      "medianLum": 36.7,
+      "p90Lum": 62
+    }
+  },
+  "flow3d": {
+    "hashChanged": true,
+    "phaseFrom": 0.09399600000000004,
+    "phaseTo": 0.1739880000000001
+  },
+  "flowSys": {
+    "hashChanged": true
+  },
+  "feat": {
+    "features": [
+      "atmosphere",
+      "dayNight",
+      "nightLights",
+      "terrain",
+      "clouds",
+      "starfieldLayers",
+      "fineGrid",
+      "sphereShading",
+      "flow"
+    ],
+    "featureCount": 9,
+    "stages": [
+      "信源编码",
+      "上行链路",
+      "星上转发",
+      "下行链路",
+      "译码送达"
+    ],
+    "stageCount": 5,
+    "clouds": 130,
+    "cityLights": 198,
+    "galaxy": 420,
+    "atmosphere": true,
+    "flowPlaying": true
+  },
+  "kb": {
+    "glossaryCards": 28,
+    "glossaryGroups": 7,
+    "sectionTotal": 32,
+    "engSections": 8,
+    "modules": 8
+  },
+  "baseline": {
+    "pix": {
+      "samples": 31812,
+      "darkPct": 55,
+      "midPct": 42.3,
+      "brightPct": 2.7,
+      "colorBuckets": 67,
+      "medianLum": 24,
+      "p90Lum": 53.3
+    },
+    "feat": {
+      "hasStars": true,
+      "starCount": 110,
+      "hasLand": true,
+      "landPolys": 8,
+      "hasSun": true,
+      "hasLambert": true,
+      "orbitCount": 3,
+      "hasAtmosphere": false,
+      "hasClouds": false,
+      "hasNightLights": false,
+      "hasTerrain": false,
+      "hasGalaxy": false,
+      "hasFlow": false
+    }
+  },
+  "pngStats": {
+    "scene3d": {
+      "w": 900,
+      "h": 477,
+      "bitDepth": 8,
+      "colorType": 2,
+      "bytes": 129788,
+      "samples": 47700,
+      "nonBg": 7232,
+      "colors": 141
+    },
+    "system": {
+      "w": 900,
+      "h": 477,
+      "bitDepth": 8,
+      "colorType": 2,
+      "bytes": 125546,
+      "samples": 47700,
+      "nonBg": 7125,
+      "colors": 138
+    },
+    "baseline": {
+      "w": 900,
+      "h": 477,
+      "bitDepth": 8,
+      "colorType": 6,
+      "bytes": 289886,
+      "samples": 47700,
+      "nonBg": 9600,
+      "colors": 240
+    }
+  }
+}

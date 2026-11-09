@@ -1,0 +1,18 @@
+# IDE / 编辑器本地配置
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# 系统与临时文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# 本项目零构建、零依赖，以下仅作防御性声明（正常不会出现）
+node_modules/
+package-lock.json
+dist/
+build/

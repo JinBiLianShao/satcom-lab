@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SatCom Lab · 卫星通信 3D 可视化教学</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="app">
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">◎</div>
+      <div class="brand-text">
+        <div class="brand-name">SatCom Lab</div>
+        <div class="brand-sub">卫星通信可视化教学</div>
+      </div>
+    </div>
+    <nav class="nav" id="nav" aria-label="教学模块导航"></nav>
+    <button type="button" class="glossary-open" id="glossary-open">📖 术语速查 <span class="glossary-count" id="glossary-count"></span></button>
+    <div class="footer">
+      <span class="badge">离线可用</span>
+      <span class="hint">零依赖 · 双击即开</span>
+    </div>
+  </aside>
+
+  <main class="main" id="main">
+    <header class="module-head">
+      <div>
+        <div class="module-title" id="module-title">载入中…</div>
+        <div class="module-subtitle" id="module-subtitle"></div>
+      </div>
+      <div class="quiz-score" id="score-chip">得分 0 / 0</div>
+    </header>
+
+    <p class="module-lead" id="module-lead"></p>
+
+    <section class="panel" id="viz-panel">
+      <div class="panel-title">
+        <span>可视化画布</span>
+        <span class="hint" id="viz-hint">拖拽旋转 · 滚轮缩放</span>
+      </div>
+      <div class="toolbar" id="toolbar"></div>
+      <div class="canvas-wrap" id="canvas-wrap">
+        <canvas class="viz-canvas" id="viz-canvas" width="980" height="520"></canvas>
+        <div class="viz-overlay" id="viz-overlay"></div>
+      </div>
+      <div class="readouts" id="readouts"></div>
+      <div class="legend" id="legend"></div>
+      <div class="block-detail" id="block-detail"></div>
+    </section>
+
+    <section class="panel" id="param-panel-wrap">
+      <div class="panel-title"><span>可调参数</span><span class="hint">拖动滑块，画布实时重算</span></div>
+      <div class="param-panel" id="param-panel"></div>
+    </section>
+
+    <section class="panel" id="formula-panel">
+      <div class="panel-title"><span>核心公式</span></div>
+      <div id="formulas"></div>
+    </section>
+
+    <section class="panel" id="section-panel">
+      <div class="panel-title"><span>原理讲解</span></div>
+      <div id="sections"></div>
+    </section>
+
+    <section class="panel" id="quiz-panel">
+      <div class="panel-title"><span>即时小测</span><span class="hint">点选后立即判分并显示解析</span></div>
+      <div class="quiz" id="quiz"></div>
+    </section>
+
+    <div class="footer" style="border-top:1px solid #24304a;margin-top:22px;padding-top:16px;">
+      <span class="hint">SatCom Lab · 手写 3D 引擎 · 所有数值来自 js/physics.js · 公式经 tests/physics.test.mjs 基准核对</span>
+    </div>
+  </main>
+
+  <!-- 术语速查面板（覆盖层，默认隐藏） -->
+  <div class="glossary-overlay" id="glossary-overlay" hidden>
+    <div class="glossary-panel" role="dialog" aria-label="卫星通信术语速查">
+      <div class="glossary-head">
+        <div>
+          <div class="glossary-title" id="glossary-title">卫星通信术语速查</div>
+          <div class="glossary-intro" id="glossary-intro"></div>
+        </div>
+        <button type="button" class="glossary-close" id="glossary-close" aria-label="关闭">✕</button>
+      </div>
+      <div class="glossary-tools">
+        <input type="search" id="glossary-search" placeholder="搜索术语 / 英文 / 定义…" autocomplete="off">
+        <div class="glossary-groups" id="glossary-groups"></div>
+      </div>
+      <div class="glossary-list" id="glossary-list"></div>
+      <div class="glossary-foot" id="glossary-foot"></div>
+    </div>
+  </div>
+
+  <script src="js/physics.js"></script>
+  <script src="content/lessons.js"></script>
+  <script src="content/glossary.js"></script>
+  <script src="js/viz.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+{
+  "fileUrl": "file:///home/lsx/work/satcom-lab/index.html",
+  "errCount": 0,
+  "errs": [],
+  "errBreakdown": {
+    "uncaught": 0,
+    "consoleError": 0,
+    "logError": 0
+  },
+  "externalCount": 0,
+  "external": [],
+  "localRequests": [
+    "file:///home/lsx/work/satcom-lab/index.html",
+    "file:///home/lsx/work/satcom-lab/css/style.css",
+    "file:///home/lsx/work/satcom-lab/js/physics.js",
+    "file:///home/lsx/work/satcom-lab/content/lessons.js",
+    "file:///home/lsx/work/satcom-lab/content/glossary.js",
+    "file:///home/lsx/work/satcom-lab/js/viz.js",
+    "file:///home/lsx/work/satcom-lab/js/app.js"
+  ],
+  "modules": [
+    {
+      "i": 1,
+      "id": "system",
+      "title": "全系统框架",
+      "w": 828,
+      "h": 520,
+      "nonBg": 2610,
+      "colors": 191,
+      "readouts": 4
+    },
+    {
+      "i": 2,
+      "id": "scene3d",
+      "title": "3D 轨道与星座",
+      "w": 828,
+      "h": 520,
+      "nonBg": 3133,
+      "colors": 250,
+      "readouts": 5
+    },
+    {
+      "i": 3,
+      "id": "link",
+      "title": "星地链路预算",
+      "w": 828,
+      "h": 430,
+      "nonBg": 408,
+      "colors": 104,
+      "readouts": 5
+    },
+    {
+      "i": 4,
+      "id": "beam",
+      "title": "天线波束与方向图",
+      "w": 828,
+      "h": 430,
+      "nonBg": 866,
+      "colors": 86,
+      "readouts": 4
+    },
+    {
+      "i": 5,
+      "id": "doppler",
+      "title": "多普勒频移",
+      "w": 828,
+      "h": 430,
+      "nonBg": 386,
+      "colors": 76,
+      "readouts": 4
+    },
+    {
+      "i": 6,
+      "id": "loss",
+      "title": "传播损耗与雨衰",
+      "w": 828,
+      "h": 430,
+      "nonBg": 532,
+      "colors": 93,
+      "readouts": 4
+    },
+    {
+      "i": 7,
+      "id": "mod",
+      "title": "调制与编码",
+      "w": 828,
+      "h": 430,
+      "nonBg": 347,
+      "colors": 88,
+      "readouts": 4
+    },
+    {
+      "i": 8,
+      "id": "delay",
+      "title": "传播时延与多址",
+      "w": 828,
+      "h": 430,
+      "nonBg": 736,
+      "colors": 128,
+      "readouts": 5
+    }
+  ],
+  "dragChanged": true,
+  "scaleBefore": 155.19588815117513,
+  "scaleAfter": 259.4917150147887,
+  "pauseStable": true,
+  "playChanged": true,
+  "orbitInfo": {
+    "orbits": 3,
+    "sats": 9,
+    "hasProject": true,
+    "hasRender": true
+  },
+  "hitboxes": 20,
+  "detail": {
+    "shown": true,
+    "text": "信源地面段作用　产生待传的业务信息（语音、图像、数据流）并变成原始比特流，它是端到端链路的起点，决定后面所有环节要承载的信息速率。关键参数　信息速率 64 kbps~155 Mbps；单路语音 PCM 64 kbps，压缩视频 2~8 Mbps在链路中的位置　第 1 环节，主链起点；输出接信源编码，属地面段发端用户设备。",
+    "fallback": true
+  },
+  "quiz": {
+    "why": "✗ 答错了　正确答案：BC/N₀ 由 EIRP、FSPL、G/T 决定，与码速率无关；Eb/N0 = C/N₀ − 10log₁₀(R_b)，R_b 翻倍使 10log₁₀ 项增加 10log₁₀2 ≈ 3.01 dB，故 Eb/N0 与余",
+    "score": "得分 0 / 1",
+    "correct": 1,
+    "wrong": 1
+  },
+  "params": [
+    {
+      "i": 1,
+      "id": "system",
+      "key": "band",
+      "hashBefore": 612024600,
+      "hashAfter": 1409085248,
+      "readoutChanged": true
+    },
+    {
+      "i": 2,
+      "id": "scene3d",
+      "key": "hKm",
+      "hashBefore": 4177523368,
+      "hashAfter": 2561667936,
+      "readoutChanged": true
+    },
+    {
+      "i": 3,
+      "id": "link",
+      "key": "ptDBW",
+      "hashBefore": 329403804,
+      "hashAfter": 1322799104,
+      "readoutChanged": true
+    },
+    {
+      "i": 4,
+      "id": "beam",
+      "key": "dishM",
+      "hashBefore": 3553781676,
+      "hashAfter": 3316706624,
+      "readoutChanged": true
+    },
+    {
+      "i": 5,
+      "id": "doppler",
+      "key": "hKm",
+      "hashBefore": 919337912,
+      "hashAfter": 623604644,
+      "readoutChanged": true
+    },
+    {
+      "i": 6,
+      "id": "loss",
+      "key": "fGHz",
+      "hashBefore": 526093680,
+      "hashAfter": 3641594464,
+      "readoutChanged": true
+    },
+    {
+      "i": 7,
+      "id": "mod",
+      "key": "modOrder",
+      "hashBefore": 1482618904,
+      "hashAfter": 1214393512,
+      "readoutChanged": true
+    },
+    {
+      "i": 8,
+      "id": "delay",
+      "key": "hKm",
+      "hashBefore": 2773526184,
+      "hashAfter": 4146461772,
+      "readoutChanged": true
+    }
+  ],
+  "shots": [
+    {
+      "p": "/home/lsx/work/satcom-lab/reports/screenshots/overview.png",
+      "size": 125493
+    },
+    {
+      "p": "/home/lsx/work/satcom-lab/reports/screenshots/scene3d.png",
+      "size": 130582
+    }
+  ],
+  "pngStats": [
+    {
+      "w": 900,
+      "h": 477,
+      "bitDepth": 8,
+      "colorType": 2,
+      "bytes": 125493,
+      "samples": 47700,
+      "nonBg": 7126,
+      "colors": 138
+    },
+    {
+      "w": 900,
+      "h": 477,
+      "bitDepth": 8,
+      "colorType": 2,
+      "bytes": 130582,
+      "samples": 47700,
+      "nonBg": 7296,
+      "colors": 142
+    }
+  ],
+  "pass": 0
+}

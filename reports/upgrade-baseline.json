@@ -1,0 +1,29 @@
+{
+  "capturedAt": "2026-11-09T05:48:37.086Z",
+  "fileUrl": "file:///home/lsx/work/satcom-lab/index.html",
+  "note": "升级前基线（n1 阶段实跑留痕）。2026-11-09 缩小截图后，本文件保持升级前的历史读数不变；重跑 upgrade-baseline.mjs 会在检测到 hasAtmosphere=false 时自动保留本文件，不再用升级后代码覆盖。",
+  "pix": {
+    "samples": 31812,
+    "darkPct": 55.0,
+    "midPct": 42.3,
+    "brightPct": 2.7,
+    "colorBuckets": 67,
+    "medianLum": 24.0,
+    "p90Lum": 53.3
+  },
+  "feat": {
+    "hasStars": true,
+    "starCount": 110,
+    "hasLand": true,
+    "landPolys": 8,
+    "hasSun": true,
+    "hasLambert": true,
+    "orbitCount": 3,
+    "hasAtmosphere": false,
+    "hasClouds": false,
+    "hasNightLights": false,
+    "hasTerrain": false,
+    "hasGalaxy": false,
+    "hasFlow": false
+  }
+}
